@@ -1,0 +1,170 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8edef;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+/* RESUME CONTAINER */
+
+.resume {
+    width: 850px;
+    min-height: 1100px;
+    margin: 30px auto;
+    padding: 40px 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+
+/* HEADER */
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #222;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.role {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+
+/* CONTACT INFORMATION */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links a {
+    color: #24527a;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+
+/* SECTION STYLING */
+
+section {
+    margin-top: 22px;
+}
+
+section h2 {
+    font-size: 17px;
+    color: #1c3d5a;
+    border-bottom: 2px solid #1c3d5a;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+
+/* PARAGRAPHS */
+
+section p {
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 7px;
+}
+
+
+/* PROJECTS AND EDUCATION */
+
+.item {
+    margin-bottom: 15px;
+}
+
+.item h3 {
+    font-size: 15px;
+    margin-bottom: 4px;
+    color: #222;
+}
+
+
+/* SKILLS */
+
+.skills p {
+    margin-bottom: 6px;
+}
+
+
+/* LISTS */
+
+ul {
+    padding-left: 22px;
+}
+
+ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+/* FOOTER */
+
+footer {
+    margin-top: 25px;
+    padding-top: 10px;
+    border-top: 1px solid #aaa;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 900px) {
+
+    .resume {
+        width: 95%;
+        padding: 25px;
+    }
+
+    .contact {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+}
+
+@media print {
+
+    body {
+        background: white;
+    }
+
+    .resume {
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+    }
+
+}
+```
